@@ -1,28 +1,33 @@
 print("KALKULATOR")
 
-x = input("podaj 1 liczbę: ")
-y = input("podaj 2 liczbę: ")
+first_number = input("podaj 1 liczbę: ")
+second_number = input("podaj 2 liczbę: ")
 
 
-mnożenie = int(x) * int(y)
-dodawanie = int(x) + int(y)
-odejmowanie = int(x) - int(y)
-dzielenie = int(x) / int(y)
+multiplication = float(first_number) * float(second_number)
+addition = float(first_number) + float(second_number)
+subtraction = int(first_number) - float(second_number)
+division = float(first_number) / float(second_number)
 
-działania = ["dodawanie,mnożenie,dzielenie,odejmowanie"]
 
-print("Podaj działanie z listy, które chcesz wykonać", działania)
+actions= ["dodawanie","mnożenie","dzielenie","odejmowanie"]
 
-j = input()
+print("Podaj działanie z listy, które chcesz wykonać", actions)
 
-if j == "dodawanie":
-    print("wynik: ", dodawanie)
-elif j == "mnożenie":
-    print("wynik: ", mnożenie)
-elif j == "dzielenie":
-    print("wynik: ", dzielenie)
-else :
-    print(mnożenie)
+operation = input()
+
+
+if operation == actions[0]:
+    print("wynik: ", addition)
+elif operation == actions[1]:
+    print("wynik: ", multiplication)
+elif operation == actions[2]:
+    print("wynik: ", division)
+elif operation == actions[3]:
+    print("wynik: ", subtraction)
+else:
+    print("Nastepnym razem wybierz działanie z listy")
+
 print("Dziękuje za skorzystanie z kalkulatora")
 
 
