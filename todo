@@ -1,8 +1,8 @@
-1. Zmień zmienne na angielskie odpowiedniki
-2. Nazywaj zmienne tak aby inna osoba była w stanie zrozumieć do czego dana zmienna służy
-3. Zrób zaokrąglenie wyniku do dwóch miejsc po przecinku. (jest do tego specjalna funkcja)
-4. Usuń niepotrzebny plik z repozytorium
-5. Dodaj możliwość odejmowania
+﻿1. Zmień zmienne na angielskie odpowiedniki -zmieniłem nazwy
+2. Nazywaj zmienne tak aby inna osoba była w stanie zrozumieć do czego dana zmienna służy - poprawiłem, myśle, ze powinno być zrozumiałe
+3. Zrób zaokrąglenie wyniku do dwóch miejsc po przecinku. (jest do tego specjalna funkcja) - wprowadziłem za pomoca funkcji float 
+4. Usuń niepotrzebny plik z repozytorium - usunałem
+5. Dodaj możliwość odejmowania - wprowadziłem
 6. Dodaj walidację na input. Jeśli któraś libcza jest stringiem, pokaż błąd.
-7. Popraw tablice. (Najlepiej stwórz tablice asocjacyjną, którą możesz wykorzystać w zdaniu warunkowym)
+7. Popraw tablice. (Najlepiej stwórz tablice asocjacyjną, którą możesz wykorzystać w zdaniu warunkowym) - poprawiłem tablice, ale nie stworzyłem asocjacyjnej
 8. Po poprawkach zedytuj ten plik z opisem co zrobiłeś i wyślij z powrotem na repo :)
